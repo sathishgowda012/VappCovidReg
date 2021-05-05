@@ -1,0 +1,7 @@
+<p>Hey {{ name }},</p>
+<p>Vaccination slots are available at the following centres on {{ date }}:</p>
+<ul>
+    {{#each hospitals}}
+    <li>{{ this }}</li>
+    {{/each}}
+</ul>
